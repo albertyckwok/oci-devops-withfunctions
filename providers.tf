@@ -3,10 +3,6 @@
 # 
 
 provider "oci" {
-  region       = var.region
-}
-
-provider "oci" {
             tenancy-ocid = var.tenancy-ocid
             region       = var.region
 
